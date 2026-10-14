@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="1000" height="520" role="img" aria-label="Claude asks for one approval before making two Seedance 2.5 clips">
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect width="1000" height="520" rx="18" fill="#0D1117"/>
+  <rect width="1000" height="44" rx="18" fill="#161B22"/>
+  <rect y="26" width="1000" height="18" fill="#161B22"/>
+  <circle cx="26" cy="22" r="7" fill="#FF5F57"/>
+  <circle cx="50" cy="22" r="7" fill="#FEBC2E"/>
+  <circle cx="74" cy="22" r="7" fill="#28C840"/>
+  <text x="500" y="27" fill="#C9D1D9" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="middle">claude</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17">
+    <text x="36" y="86" fill="#C084FC">&gt;</text>
+    <text x="58" y="86" fill="#FFFFFF">make two surf clips on seedance 2.5, five seconds each</text>
+
+    <circle cx="42" cy="124" r="5" fill="#4ADE80"/>
+    <text x="58" y="130" fill="#FFFFFF">seedance</text>
+    <text x="150" y="130" fill="#79C0FF">estimate_cost</text>
+    <text x="58" y="158" fill="#E6EDF3">About $2.33 in total. This month you'd be at $16.53 of your $50.00 budget.</text>
+
+    <circle cx="42" cy="196" r="5" fill="#4ADE80"/>
+    <text x="58" y="202" fill="#FFFFFF">seedance</text>
+    <text x="150" y="202" fill="#79C0FF">preapprove_spend</text>
+  </g>
+
+  <!-- the dialog -->
+  <g filter="url(#shadow)" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="58" y="226" width="884" height="270" rx="14" fill="#161B22" stroke="#A855F7" stroke-width="1.5"/>
+    <text x="84" y="262" fill="#D8B4FE" font-size="14" font-weight="700" letter-spacing="1.5">SEEDANCE IS ASKING YOU</text>
+    <text x="84" y="298" fill="#FFFFFF" font-size="21" font-weight="700">Spend about $2.33 on two surf clips (2x Seedance 2.5, 5s, 720p, with audio)?</text>
+    <text x="84" y="332" fill="#E6EDF3" font-size="17">This month: $14.20 spent of your $50.00 budget. After this: $16.53.</text>
+    <text x="84" y="360" fill="#E6EDF3" font-size="17">Asking because it is over your $0.50 ask-first limit.</text>
+
+    <rect x="84" y="384" width="22" height="22" rx="5" fill="#16A34A"/>
+    <path d="M89 395 L 94 400 L 102 390" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="118" y="401" fill="#FFFFFF" font-size="17" font-weight="600">Yes, spend up to $2.33</text>
+
+    <rect x="84" y="430" width="112" height="40" rx="10" fill="#16A34A"/>
+    <text x="140" y="456" fill="#FFFFFF" font-size="17" font-weight="700" text-anchor="middle">Accept</text>
+    <rect x="210" y="430" width="112" height="40" rx="10" fill="none" stroke="#6E7681"/>
+    <text x="266" y="456" fill="#FFFFFF" font-size="17" font-weight="600" text-anchor="middle">Decline</text>
+    <text x="916" y="456" fill="#D8B4FE" font-size="14" font-weight="600" text-anchor="end">shown by your client, not by the model</text>
+  </g>
+</svg>

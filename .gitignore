@@ -1,0 +1,21 @@
+# Secrets: the key lives in ~/.seedance-mcp/.env, never in this repo
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+
+# Generated media and local ledgers
+*.mp4
+*.jpg
+*.jpeg
+*.png
+ledger.jsonl
